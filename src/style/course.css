@@ -1,0 +1,562 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #FAF9FE;
+}
+
+main {
+  max-width: 1920px;
+  margin: 0 40px;
+}
+
+main .heading h2 {
+  text-transform: uppercase;
+  color: #6440A3;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  margin-left: 35px;
+}
+
+main .heading p {
+  color: rgba(128, 128, 128, 0.808);
+  margin-bottom: 10px;
+  margin-top: 0px;
+  margin-left: 35px;
+}
+
+main .lecture-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+main .lecture-section .left-section {
+  background-color: white;
+  -webkit-box-shadow: 0 0 5px rgba(90, 90, 90, 0.473);
+          box-shadow: 0 0 5px rgba(90, 90, 90, 0.473);
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  margin: 2rem;
+  margin-bottom: 50px;
+}
+
+main .lecture-section .right-section {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin: 2rem;
+  height: 100%;
+  margin-left: 0;
+}
+
+main .lecture-section .right-section h2 {
+  color: rgba(128, 128, 128, 0.808);
+  margin-top: -5px;
+}
+
+main .lecture-section .right-section .right-section-button {
+  position: relative;
+  top: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 10px 20px;
+}
+
+main .lecture-section .right-section .right-section-button a {
+  margin-left: 90px;
+  text-decoration: none;
+  color: #6440A3;
+  margin-top: 20px;
+}
+
+main .lecture-section .right-section .right-section-button a span {
+  margin-left: 10px;
+}
+
+main .lecture-section .right-section .right-section-button a span i {
+  font-size: 20px;
+}
+
+main .lecture-section .right-section .right-section-button a .explore {
+  padding: 7px 10px;
+  border-radius: 20px;
+  background-color: #6440A3;
+  color: white;
+}
+
+main .lecture-section .right-section .right-section-button .right-btn-1 {
+  margin-left: 150px;
+}
+
+main .left-section .heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .left-section .heading h2 {
+  font-size: 30px;
+  color: #6440A3;
+  margin-right: 1rem;
+}
+
+main .left-section .heading span {
+  color: #F16600;
+  font-size: 23px;
+}
+
+main .video iframe {
+  width: 100%;
+  margin: 0px 0;
+}
+
+main .left-section {
+  border-radius: 10px;
+  /* width */
+  /* Track */
+  /* Handle */
+}
+
+main .left-section *::-webkit-scrollbar {
+  width: 11px;
+}
+
+main .left-section *::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 10px;
+}
+
+main .left-section *::-webkit-scrollbar-thumb {
+  background: #C8BCDE;
+  border-radius: 10px;
+}
+
+main .left-section .overview-desktop {
+  height: 510px;
+  padding: 1.5rem 2rem;
+  margin-bottom: 1rem;
+  overflow-y: scroll;
+}
+
+main .left-section .overview-desktop .d-tabs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+main .left-section .overview-desktop .d-tabs .tab {
+  margin-right: 2rem;
+  font-weight: 700;
+  font-size: 20px;
+  color: rgba(128, 128, 128, 0.808);
+  cursor: pointer;
+}
+
+main .left-section .overview-desktop .overview {
+  margin-top: 40px;
+}
+
+main .left-section .overview-desktop .overview .course {
+  border-left: 2px solid grey;
+  padding-left: 2rem;
+}
+
+main .left-section .overview-desktop .overview .course span i {
+  margin: 0 10px 5px 0;
+}
+
+main .left-section .overview-desktop .overview .course span i.far {
+  margin-left: 6px;
+}
+
+main .left-section .overview-desktop .overview .course a {
+  text-decoration: none;
+  color: #F16600;
+}
+
+main .left-section .overview-desktop .overview .course a p {
+  margin: 0;
+  text-align: right;
+}
+
+main .left-section .overview-desktop .overview .course a p i {
+  margin-right: 6px;
+  font-size: 13px;
+  color: grey;
+}
+
+main .left-section .overview-desktop .courseDetails .course-detail-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .left-section .overview-desktop .courseDetails .course-detail-head h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+main .left-section .overview-desktop .courseDetails .course-detail-head a {
+  text-decoration: none;
+  color: #F16600;
+  margin-top: 5px;
+  margin-left: 30%;
+}
+
+main .left-section .overview-desktop .courseDetails .course-detail-head a i {
+  margin-right: 6px;
+  font-size: 13px;
+  color: grey;
+}
+
+main .left-section .overview-desktop .courseDetails h5 {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+main .left-section .overview-desktop .courseDetails h5 i {
+  margin-left: 6px;
+  margin-right: 6px;
+  font-size: 12px;
+}
+
+main .left-section .overview-desktop .courseDetails p {
+  margin: 0;
+  font-size: 15px;
+}
+
+main .left-section .overview-desktop .objectives h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+main .left-section .overview-desktop .objectives ol {
+  padding-left: 15px;
+}
+
+main .left-section .overview-desktop .objectives ol li {
+  font-size: 15px;
+  margin: 3px 0;
+}
+
+main .left-section .overview-desktop .language h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+main .left-section .overview-desktop .language p {
+  margin: 0;
+  font-size: 16px;
+}
+
+main .left-section .overview-desktop .language ol {
+  padding-left: 15px;
+}
+
+main .left-section .overview-desktop .language ol li {
+  font-size: 15px;
+  margin: 3px 0;
+}
+
+main .left-section .overview-desktop .language .button-container {
+  position: relative;
+  width: 300px;
+  left: 60%;
+  bottom: 50px;
+  padding-left: 50px;
+}
+
+main .left-section .overview-desktop .language .button-container a {
+  text-decoration: none;
+  padding: 4px 25px;
+  margin: 5px;
+  border-radius: 20px;
+}
+
+main .left-section .overview-desktop .language .button-container .button-btn {
+  border: 1px solid #6440A3;
+}
+
+main .left-section .overview-desktop .language .button-container .button-btn-1 {
+  background-color: #6440A3;
+  color: white;
+}
+
+.right-section .data-container {
+  margin-top: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 5px;
+  height: 80px;
+  border-radius: 15px;
+  background-color: white;
+  -webkit-box-shadow: 0 0 5px rgba(90, 90, 90, 0.281);
+          box-shadow: 0 0 5px rgba(90, 90, 90, 0.281);
+}
+
+.right-section .data-container .img-container {
+  width: 100px;
+  border-radius: 15px;
+}
+
+.right-section .data-container .img-container > img {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  max-height: 100%;
+  border-radius: 15px;
+}
+
+.right-section .data-container .data-content {
+  display: block;
+  padding: 2px;
+  position: relative;
+  width: 150px;
+}
+
+.right-section .data-container .data-content h3 {
+  position: absolute;
+  margin-bottom: 0px;
+  bottom: 32px;
+}
+
+.right-section .data-container .data-content span {
+  position: absolute;
+  margin-bottom: 0px;
+  bottom: 10px;
+}
+
+.right-section .data-container .data-time {
+  position: relative;
+  top: 45px;
+}
+
+.overview-section {
+  display: none;
+  margin: 2rem;
+  margin-top: 0;
+  width: 63%;
+}
+
+.overview-section .tabs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media only screen and (min-width: 1366px) {
+  .lecture-section .left-section .video {
+    width: 100%;
+  }
+  .lecture-section .left-section .video iframe {
+    height: 440px;
+    width: 100%;
+    border: none;
+    outline: none;
+    width: 100%;
+    max-width: 100%;
+    border-radius: 10px 10px 0px  0px;
+  }
+}
+
+@media only screen and (max-width: 1190px) {
+  .lecture-section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .lecture-section .left-section {
+    width: 100%;
+    margin: 0 !important;
+    margin-bottom: 1rem;
+  }
+  .lecture-section .right-section {
+    width: 100%;
+    margin: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .lecture-section .left-section .overview .language {
+    display: block;
+  }
+  .lecture-section .left-section .overview .language .button-container {
+    position: relative;
+    width: 300px;
+    left: -50px;
+    bottom: -20px;
+    padding-left: 50px;
+  }
+  .lecture-section .left-section .video iframe {
+    height: 380px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .lecture-section .left-section .video iframe {
+    height: 380px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 516px) {
+  .left-section .overview-desktop {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 453px) {
+  .lecture-section .left-section *::-webkit-scrollbar {
+    width: 7px;
+  }
+  .lecture-section .left-section .heading h2 {
+    font-size: 24px;
+  }
+  .lecture-section .left-section .heading span {
+    font-size: 20px;
+  }
+  .lecture-section .left-section .heading span i {
+    font-size: 18px;
+  }
+  .lecture-section .left-section .video iframe {
+    height: 200px;
+    width: 100%;
+  }
+  .lecture-section .right-section h2 {
+    font-size: 22px;
+  }
+  .left-section .overview-desktop *::-webkit-scrollbar {
+    width: 5px !important;
+  }
+  .left-section .overview-desktop .d-tabs .tab {
+    font-size: 17px !important;
+  }
+  .left-section .overview-desktop .d-tabs .tab:last-child {
+    margin-right: 0 !important;
+  }
+  .overview .courseDetails .course-detail-head {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .overview .courseDetails .course-detail-head h2 {
+    font-size: 19px;
+  }
+  .overview .courseDetails .course-detail-head a {
+    font-size: 13px;
+  }
+  .overview .courseDetails .course-detail-head a i {
+    margin-right: 6px;
+    font-size: 13px;
+    color: grey;
+  }
+  .overview .courseDetails p {
+    font-size: 13px !important;
+  }
+  .overview .objectives h2 {
+    font-size: 19px;
+  }
+  .overview .objectives li {
+    font-size: 13px !important;
+  }
+  .overview .language h2 {
+    font-size: 19px;
+  }
+  .overview .language p {
+    font-size: 13px !important;
+  }
+}
+
+@media only screen and (max-width: 385px) {
+  .lecture-section .left-section .heading {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin-bottom: 10px;
+  }
+  .lecture-section .left-section .heading h2 {
+    margin-bottom: 0;
+  }
+  .left-section .overview-desktop .d-tabs .tab {
+    font-size: 14px !important;
+    margin-right: 1rem !important;
+  }
+  .overview .courseDetails .course-detail-head a {
+    margin-left: 2rem !important;
+  }
+}
+
+@media only screen and (max-width: 310px) {
+  .left-section .overview-desktop .d-tabs .tab {
+    font-size: 13px !important;
+    margin-right: .7rem !important;
+  }
+  .overview .courseDetails .course-detail-head a {
+    margin-left: 1rem !important;
+  }
+}
+/*# sourceMappingURL=course.css.map */
